@@ -79,8 +79,6 @@ git clone https://github.com/patriciagolfete/BiblioShare.git
 
 * Sistema de avaliações de usuários
 * Chat entre usuários
-* Integração com banco de dados
-* Responsividade para dispositivos móveis
 
 ---
 
