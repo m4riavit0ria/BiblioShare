@@ -1,4 +1,4 @@
-````md
+
 <p align="center">
   <img src="img/logo-biblioshare.png" alt="Logo BiblioShare" width="320">
 </p>
