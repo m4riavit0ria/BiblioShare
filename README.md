@@ -21,7 +21,6 @@ O **BiblioShare** é uma plataforma web desenvolvida com o objetivo de incentiva
 
 ```
 
-
 ## 🌍 Objetivos de Desenvolvimento Sustentável
 
 <div align="center">
