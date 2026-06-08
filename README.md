@@ -1,4 +1,4 @@
-
+````md
 <p align="center">
   <img src="img/logo-biblioshare.png" alt="Logo BiblioShare" width="320">
 </p>
@@ -19,7 +19,7 @@ O **BiblioShare** é uma plataforma web desenvolvida com o objetivo de incentiva
 
 </div>
 
-```
+---
 
 ## 🌍 Objetivos de Desenvolvimento Sustentável
 
@@ -34,7 +34,9 @@ O **BiblioShare** é uma plataforma web desenvolvida com o objetivo de incentiva
   <img src="img/ods4.png" alt="ODS 4" width="120">
 </a>
 
-### ODS 4  
+<br>
+
+### ODS 4
 **Educação de Qualidade**
 
 Amplia o acesso à leitura e ao conhecimento.
@@ -47,7 +49,9 @@ Amplia o acesso à leitura e ao conhecimento.
   <img src="img/ods11.png" alt="ODS 11" width="120">
 </a>
 
-### ODS 11  
+<br>
+
+### ODS 11
 **Cidades e Comunidades Sustentáveis**
 
 Incentiva colaboração e fortalecimento comunitário.
@@ -60,7 +64,9 @@ Incentiva colaboração e fortalecimento comunitário.
   <img src="img/ods12.png" alt="ODS 12" width="120">
 </a>
 
-### ODS 12  
+<br>
+
+### ODS 12
 **Consumo Responsável**
 
 Estimula a reutilização de livros e reduz desperdícios.
@@ -71,8 +77,8 @@ Estimula a reutilização de livros e reduz desperdícios.
 </table>
 
 </div>
-```
 
+---
 
 ## 👩‍💻 Integrantes do Grupo 6
 
@@ -95,15 +101,11 @@ Estimula a reutilização de livros e reduz desperdícios.
 
 ## 🛠️ Tecnologias utilizadas
 
-<div align="left">
-
 - HTML5  
 - CSS3  
 - JavaScript  
 - Font Awesome (ícones)  
 - Google Fonts
-
-</div>
 
 ---
 
@@ -131,7 +133,6 @@ BiblioShare/
 │   ├── logo-biblioshare.png
 │   ├── pequeno-principe.jpg
 │   ├── dom-casmurro.jpg
-│   └── ods/
 │
 └── README.md
 ````
@@ -140,7 +141,7 @@ BiblioShare/
 
 ## 🎯 Objetivo
 
-O BiblioShare busca **promover o acesso democrático à leitura**, incentivando a reutilização de livros e fortalecendo a comunidade através do compartilhamento de conhecimento.
+O **BiblioShare** busca promover o acesso democrático à leitura, incentivando a reutilização de livros e fortalecendo a comunidade através do compartilhamento de conhecimento.
 
 ---
 
