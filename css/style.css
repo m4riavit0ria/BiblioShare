@@ -515,6 +515,93 @@ footer {
   line-height: 1.7;
 }
 
+/* ACESSIBILIDADE */
+
+.acessibilidade {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.acessibilidade button {
+  width: 42px;
+  height: 42px;
+
+  border: none;
+  border-radius: 50%;
+
+  background: #2e7d32;
+  color: white;
+
+  cursor: pointer;
+
+  font-size: 18px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: background 0.3s, transform 0.2s;
+}
+
+.acessibilidade button:hover {
+  background: #1b5e20;
+  transform: scale(1.05);
+}
+
+/* ALTO CONTRASTE */
+
+body.alto-contraste {
+  background: #000;
+  color: #fff;
+}
+
+body.alto-contraste .topo,
+body.alto-contraste .card,
+body.alto-contraste .form-container,
+body.alto-contraste footer {
+  background: #111;
+  color: #fff;
+}
+
+body.alto-contraste p,
+body.alto-contraste h1,
+body.alto-contraste h2,
+body.alto-contraste label,
+body.alto-contraste a {
+  color: #fff !important;
+}
+
+body.alto-contraste .btn,
+body.alto-contraste .btn-submit {
+  background: yellow;
+  color: black;
+}
+body.alto-contraste .banner {
+  background: #000 !important;
+}
+
+body.alto-contraste .banner-texto span,
+body.alto-contraste .banner-texto h1,
+body.alto-contraste .banner-texto p {
+  color: #fff !important;
+}
+
+body.alto-contraste .banner-btn {
+  background: yellow !important;
+  color: black !important;
+}
+
+body.alto-contraste .banner-ods img,
+body.alto-contraste .banner-logo,
+body.alto-contraste .banner-biblioteca {
+  border: 2px solid yellow;
+}
+body.alto-contraste .menu a,
+body.alto-contraste .busca-menu i {
+  color: yellow !important;
+}
+
 @media (max-width: 800px) {
 
   .topo {

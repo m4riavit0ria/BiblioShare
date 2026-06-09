@@ -163,3 +163,61 @@ botoesSolicitar.forEach(function (botao) {
     alert("Solicitação realizada com sucesso!");
   });
 });
+
+// ACESSIBILIDADE
+
+let tamanhoFonte = 100;
+
+const aumentarFonte =
+document.getElementById("aumentar-fonte");
+
+const diminuirFonte =
+document.getElementById("diminuir-fonte");
+
+const altoContraste =
+document.getElementById("alto-contraste");
+
+if (aumentarFonte) {
+  aumentarFonte.addEventListener("click", () => {
+    tamanhoFonte += 10;
+    document.body.style.fontSize =
+      tamanhoFonte + "%";
+  });
+}
+
+if (diminuirFonte) {
+  diminuirFonte.addEventListener("click", () => {
+    tamanhoFonte -= 10;
+
+    if (tamanhoFonte < 80) {
+      tamanhoFonte = 80;
+    }
+
+    document.body.style.fontSize =
+      tamanhoFonte + "%";
+  });
+}
+
+// CONTRASTE COM ÍCONE
+
+if (altoContraste) {
+
+  altoContraste.addEventListener("click", () => {
+
+    document.body.classList.toggle(
+      "alto-contraste"
+    );
+
+    if (
+      document.body.classList.contains(
+        "alto-contraste"
+      )
+    ) {
+      altoContraste.textContent = "☀️";
+    } else {
+      altoContraste.textContent = "🌙";
+    }
+
+  });
+
+}
